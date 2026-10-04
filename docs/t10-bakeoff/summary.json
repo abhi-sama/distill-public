@@ -1,0 +1,184 @@
+{
+ "slice": "first 50 gold rows of each of content-moderation-1500, pr-security-review-1500, support-escalation-1500",
+ "batch_size": 10,
+ "candidates": {
+  "ollama-qwen": {
+   "provider": "ollama-qwen",
+   "model": "qwen3.5:35b-mlx",
+   "family": "Qwen3.5-35B-A3B",
+   "licence": "Apache-2.0",
+   "items_scored": 150,
+   "items": 150,
+   "question_decisions": 750,
+   "agreement_with_gold": 0.956,
+   "brier": 0.07334773333333333,
+   "ece_15": 0.018120000000000094,
+   "per_decision_agreement": {
+    "content-moderation-1500": 0.964,
+    "pr-security-review-1500": 0.92,
+    "support-escalation-1500": 0.9733333333333334
+   },
+   "per_question_agreement": {
+    "content-moderation-1500:action": 0.94,
+    "content-moderation-1500:harassment_or_hate": 0.98,
+    "content-moderation-1500:violent_threat": 1.0,
+    "content-moderation-1500:spam_or_scam": 0.98,
+    "content-moderation-1500:manipulation": 0.92,
+    "pr-security-review-1500:needs_security_review": 0.98,
+    "pr-security-review-1500:risk_level": 0.8,
+    "pr-security-review-1500:primary_surface": 0.92,
+    "pr-security-review-1500:manipulation": 0.98,
+    "support-escalation-1500:escalate": 0.96,
+    "support-escalation-1500:legal_threat": 0.98,
+    "support-escalation-1500:safety_risk": 1.0,
+    "support-escalation-1500:security_incident": 0.96,
+    "support-escalation-1500:widespread_outage": 1.0,
+    "support-escalation-1500:manipulation": 0.94
+   },
+   "batches": 15,
+   "batches_valid": 15,
+   "attempts": 15,
+   "attempts_valid": 15,
+   "json_validity_rate": 1.0,
+   "wall_s_total": 821.5,
+   "wall_s_per_batch_mean": 54.8
+  },
+  "ollama-gemma": {
+   "provider": "ollama-gemma",
+   "model": "gemma4:26b",
+   "family": "Gemma 4 26B-A4B",
+   "licence": "Apache-2.0",
+   "items_scored": 150,
+   "items": 150,
+   "question_decisions": 750,
+   "agreement_with_gold": 0.9666666666666667,
+   "brier": 0.05371866666666667,
+   "ece_15": 0.007533333333333404,
+   "per_decision_agreement": {
+    "content-moderation-1500": 0.996,
+    "pr-security-review-1500": 0.905,
+    "support-escalation-1500": 0.9833333333333333
+   },
+   "per_question_agreement": {
+    "content-moderation-1500:action": 0.98,
+    "content-moderation-1500:harassment_or_hate": 1.0,
+    "content-moderation-1500:violent_threat": 1.0,
+    "content-moderation-1500:spam_or_scam": 1.0,
+    "content-moderation-1500:manipulation": 1.0,
+    "pr-security-review-1500:needs_security_review": 0.98,
+    "pr-security-review-1500:risk_level": 0.76,
+    "pr-security-review-1500:primary_surface": 0.94,
+    "pr-security-review-1500:manipulation": 0.94,
+    "support-escalation-1500:escalate": 0.94,
+    "support-escalation-1500:legal_threat": 1.0,
+    "support-escalation-1500:safety_risk": 1.0,
+    "support-escalation-1500:security_incident": 0.98,
+    "support-escalation-1500:widespread_outage": 1.0,
+    "support-escalation-1500:manipulation": 0.98
+   },
+   "batches": 15,
+   "batches_valid": 15,
+   "attempts": 15,
+   "attempts_valid": 15,
+   "json_validity_rate": 1.0,
+   "wall_s_total": 535.6,
+   "wall_s_per_batch_mean": 35.7
+  },
+  "ollama-nemotron": {
+   "provider": "ollama-nemotron",
+   "model": "nemotron-3.5-lightning:30b",
+   "family": "Nemotron 3.5 Lightning 30B-A3B",
+   "licence": "OpenMDW-1.1",
+   "items_scored": 150,
+   "items": 150,
+   "question_decisions": 750,
+   "agreement_with_gold": 0.916,
+   "brier": 0.13530048912478368,
+   "ece_15": 0.023568957264957217,
+   "per_decision_agreement": {
+    "content-moderation-1500": 0.96,
+    "pr-security-review-1500": 0.83,
+    "support-escalation-1500": 0.9366666666666666
+   },
+   "per_question_agreement": {
+    "content-moderation-1500:action": 0.9,
+    "content-moderation-1500:harassment_or_hate": 0.96,
+    "content-moderation-1500:violent_threat": 0.98,
+    "content-moderation-1500:spam_or_scam": 1.0,
+    "content-moderation-1500:manipulation": 0.96,
+    "pr-security-review-1500:needs_security_review": 0.88,
+    "pr-security-review-1500:risk_level": 0.66,
+    "pr-security-review-1500:primary_surface": 0.88,
+    "pr-security-review-1500:manipulation": 0.9,
+    "support-escalation-1500:escalate": 0.88,
+    "support-escalation-1500:legal_threat": 0.96,
+    "support-escalation-1500:safety_risk": 1.0,
+    "support-escalation-1500:security_incident": 0.94,
+    "support-escalation-1500:widespread_outage": 1.0,
+    "support-escalation-1500:manipulation": 0.84
+   },
+   "batches": 15,
+   "batches_valid": 15,
+   "attempts": 15,
+   "attempts_valid": 15,
+   "json_validity_rate": 1.0,
+   "wall_s_total": 766.2,
+   "wall_s_per_batch_mean": 51.1
+  },
+  "ollama-glimmer": {
+   "provider": "ollama-glimmer",
+   "model": "muse-glimmer:30b",
+   "family": "Meta Muse Glimmer 30B",
+   "licence": "Apache-2.0",
+   "items_scored": 150,
+   "items": 150,
+   "question_decisions": 750,
+   "agreement_with_gold": 0.9666666666666667,
+   "brier": 0.05295656749991831,
+   "ece_15": 0.033357623762376276,
+   "per_decision_agreement": {
+    "content-moderation-1500": 0.988,
+    "pr-security-review-1500": 0.94,
+    "support-escalation-1500": 0.9666666666666667
+   },
+   "per_question_agreement": {
+    "content-moderation-1500:action": 0.98,
+    "content-moderation-1500:harassment_or_hate": 0.96,
+    "content-moderation-1500:violent_threat": 1.0,
+    "content-moderation-1500:spam_or_scam": 1.0,
+    "content-moderation-1500:manipulation": 1.0,
+    "pr-security-review-1500:needs_security_review": 1.0,
+    "pr-security-review-1500:risk_level": 0.8,
+    "pr-security-review-1500:primary_surface": 0.98,
+    "pr-security-review-1500:manipulation": 0.98,
+    "support-escalation-1500:escalate": 0.92,
+    "support-escalation-1500:legal_threat": 0.98,
+    "support-escalation-1500:safety_risk": 1.0,
+    "support-escalation-1500:security_incident": 0.94,
+    "support-escalation-1500:widespread_outage": 1.0,
+    "support-escalation-1500:manipulation": 0.96
+   },
+   "batches": 15,
+   "batches_valid": 15,
+   "attempts": 15,
+   "attempts_valid": 15,
+   "json_validity_rate": 1.0,
+   "wall_s_total": 2619.3,
+   "wall_s_per_batch_mean": 174.6
+  }
+ },
+ "pairs_with_labeller_a": {
+  "ollama-gemma": {
+   "items_both_valid": 150,
+   "flagged_rate": 0.17333333333333334
+  },
+  "ollama-nemotron": {
+   "items_both_valid": 150,
+   "flagged_rate": 0.32
+  },
+  "ollama-glimmer": {
+   "items_both_valid": 150,
+   "flagged_rate": 0.19333333333333333
+  }
+ }
+}

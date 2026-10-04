@@ -1,0 +1,15 @@
+{"attempt":1,"input_tokens":7506,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2144,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:37:34.397534+00:00","wall_time_seconds":163.6926}
+{"attempt":1,"input_tokens":7487,"model":"muse-glimmer:30b","outcome":"success","output_tokens":1700,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:39:45.279301+00:00","wall_time_seconds":130.878344}
+{"attempt":1,"input_tokens":7505,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2313,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:42:32.420762+00:00","wall_time_seconds":167.138737}
+{"attempt":1,"input_tokens":7522,"model":"muse-glimmer:30b","outcome":"success","output_tokens":1944,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:44:56.478847+00:00","wall_time_seconds":144.053152}
+{"attempt":1,"input_tokens":7480,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2197,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:47:37.240590+00:00","wall_time_seconds":160.759094}
+{"attempt":1,"input_tokens":8606,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2069,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:50:13.365324+00:00","wall_time_seconds":156.119817}
+{"attempt":1,"input_tokens":8432,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2469,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:53:14.016344+00:00","wall_time_seconds":180.648064}
+{"attempt":1,"input_tokens":8369,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2812,"provider":"ollama-glimmer","timestamp":"2026-09-25T07:56:35.513503+00:00","wall_time_seconds":201.493796}
+{"attempt":1,"input_tokens":8540,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2439,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:07:30.822562+00:00","wall_time_seconds":174.593509}
+{"attempt":1,"input_tokens":8388,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2421,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:10:25.986429+00:00","wall_time_seconds":175.159949}
+{"attempt":1,"input_tokens":8617,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2436,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:13:23.960463+00:00","wall_time_seconds":177.970846}
+{"attempt":1,"input_tokens":8657,"model":"muse-glimmer:30b","outcome":"success","output_tokens":3228,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:17:12.409743+00:00","wall_time_seconds":226.365585}
+{"attempt":1,"input_tokens":8630,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2634,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:20:23.320721+00:00","wall_time_seconds":190.907765}
+{"attempt":1,"input_tokens":8693,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2554,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:23:28.990446+00:00","wall_time_seconds":185.666529}
+{"attempt":1,"input_tokens":8614,"model":"muse-glimmer:30b","outcome":"success","output_tokens":2540,"provider":"ollama-glimmer","timestamp":"2026-09-25T08:35:37.692388+00:00","wall_time_seconds":183.840334}

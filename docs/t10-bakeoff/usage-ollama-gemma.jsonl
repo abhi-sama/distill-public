@@ -1,0 +1,15 @@
+{"attempt":1,"input_tokens":7396,"model":"gemma4:26b","outcome":"success","output_tokens":2213,"provider":"ollama-gemma","timestamp":"2026-09-25T07:13:32.226556+00:00","wall_time_seconds":36.192228}
+{"attempt":1,"input_tokens":7372,"model":"gemma4:26b","outcome":"success","output_tokens":2169,"provider":"ollama-gemma","timestamp":"2026-09-25T07:14:07.139570+00:00","wall_time_seconds":31.108506}
+{"attempt":1,"input_tokens":7393,"model":"gemma4:26b","outcome":"success","output_tokens":2162,"provider":"ollama-gemma","timestamp":"2026-09-25T07:14:39.382332+00:00","wall_time_seconds":32.241328}
+{"attempt":1,"input_tokens":7412,"model":"gemma4:26b","outcome":"success","output_tokens":2153,"provider":"ollama-gemma","timestamp":"2026-09-25T07:15:11.659186+00:00","wall_time_seconds":32.275323}
+{"attempt":1,"input_tokens":7363,"model":"gemma4:26b","outcome":"success","output_tokens":1921,"provider":"ollama-gemma","timestamp":"2026-09-25T07:15:41.265234+00:00","wall_time_seconds":29.604925}
+{"attempt":1,"input_tokens":8648,"model":"gemma4:26b","outcome":"success","output_tokens":2529,"provider":"ollama-gemma","timestamp":"2026-09-25T07:16:19.335339+00:00","wall_time_seconds":38.068801}
+{"attempt":1,"input_tokens":8492,"model":"gemma4:26b","outcome":"success","output_tokens":2490,"provider":"ollama-gemma","timestamp":"2026-09-25T07:16:55.978184+00:00","wall_time_seconds":36.641095}
+{"attempt":1,"input_tokens":8433,"model":"gemma4:26b","outcome":"success","output_tokens":2492,"provider":"ollama-gemma","timestamp":"2026-09-25T07:17:34.026570+00:00","wall_time_seconds":38.047073}
+{"attempt":1,"input_tokens":8630,"model":"gemma4:26b","outcome":"success","output_tokens":2274,"provider":"ollama-gemma","timestamp":"2026-09-25T07:18:10.973578+00:00","wall_time_seconds":36.945611}
+{"attempt":1,"input_tokens":8457,"model":"gemma4:26b","outcome":"success","output_tokens":2429,"provider":"ollama-gemma","timestamp":"2026-09-25T07:18:47.867335+00:00","wall_time_seconds":36.892695}
+{"attempt":1,"input_tokens":8453,"model":"gemma4:26b","outcome":"success","output_tokens":2412,"provider":"ollama-gemma","timestamp":"2026-09-25T07:19:25.532790+00:00","wall_time_seconds":37.662028}
+{"attempt":1,"input_tokens":8487,"model":"gemma4:26b","outcome":"success","output_tokens":2389,"provider":"ollama-gemma","timestamp":"2026-09-25T07:20:03.072015+00:00","wall_time_seconds":37.537584}
+{"attempt":1,"input_tokens":8467,"model":"gemma4:26b","outcome":"success","output_tokens":2461,"provider":"ollama-gemma","timestamp":"2026-09-25T07:20:39.769404+00:00","wall_time_seconds":36.693777}
+{"attempt":1,"input_tokens":8536,"model":"gemma4:26b","outcome":"success","output_tokens":2482,"provider":"ollama-gemma","timestamp":"2026-09-25T07:21:18.173530+00:00","wall_time_seconds":38.402345}
+{"attempt":1,"input_tokens":8452,"model":"gemma4:26b","outcome":"success","output_tokens":2424,"provider":"ollama-gemma","timestamp":"2026-09-25T07:21:55.430336+00:00","wall_time_seconds":37.253855}

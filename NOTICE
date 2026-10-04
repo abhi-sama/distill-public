@@ -1,0 +1,11 @@
+Distill
+Copyright 2026 Distill contributors
+
+This product includes code adapted from Laya (https://github.com/NandhaKishorM/laya),
+developed by Convai Innovations and licensed under the Apache License, Version 2.0.
+distill/training.py and scripts/spike_train.py adapt the training loop of Laya's
+fine-tuning notebook (notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb);
+they were modified for single-process local (Apple MPS) training.
+
+This product vendors htmx 2.0.4 (distill/review_static/htmx.min.js),
+https://github.com/bigskysoftware/htmx, licensed under the Zero-Clause BSD licence.

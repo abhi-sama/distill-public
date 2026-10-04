@@ -1,0 +1,19 @@
+.venv/
+venv-laya/
+.python/
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+dist/
+build/
+# Model weights, tokenizers and review-queue databases stay local.
+proof/**/model/
+proof/**/.model.incomplete/
+proof/*/export/model.safetensors
+proof/*/export/tokenizer/
+proof/*/review-queue.sqlite3*
+# Runtime process IDs are not reproducibility evidence.
+proof/**/synth.pid
+proof/**/*.superseded-*

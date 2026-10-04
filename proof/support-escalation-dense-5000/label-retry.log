@@ -1,0 +1,4 @@
+labeller a (ollama-qwen): items 661-670 done
+{"total": 4970, "train": 4820, "gold": 75, "heldout": 75, "labelled": 4970, "flagged": 570, "pending": 638, "gold_done": 0, "reviewed": 0, "flagged_rate": 0.1147, "failed_batches": 0}
+gold.jsonl holds teacher-agreed labels, not human-verified ones; flagged gold items are left out until a human decides them.
+638 item(s) await a human: run `distill review --queue review-queue.sqlite3`, then re-run distill label to refresh labelled.jsonl and gold.jsonl.

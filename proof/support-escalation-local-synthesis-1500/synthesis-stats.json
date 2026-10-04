@@ -1,0 +1,90 @@
+{
+  "training": {
+    "requested": 1500,
+    "shortfall": 0,
+    "total_generated": 1500,
+    "retained": 1388,
+    "near_duplicates": 112,
+    "near_duplicate_rate": 0.0747,
+    "per_style": {
+      "adversarial": 300,
+      "borderline": 300,
+      "long": 199,
+      "multilingual": 299,
+      "realistic": 290
+    },
+    "per_language": {
+      "Arabic": 1,
+      "Chinese": 1,
+      "Dutch": 1,
+      "English": 174,
+      "French": 12,
+      "German": 5,
+      "Hindi": 1,
+      "Italian": 3,
+      "Japanese": 1,
+      "Korean": 1,
+      "Polish": 1,
+      "Portuguese": 4,
+      "Russian": 1,
+      "Spanish": 15,
+      "Turkish": 1,
+      "Vietnamese": 1,
+      "ar": 1,
+      "da": 1,
+      "de": 38,
+      "en": 979,
+      "es": 59,
+      "fi": 1,
+      "fr": 53,
+      "hi": 1,
+      "it": 3,
+      "ja": 4,
+      "ko": 1,
+      "nl": 1,
+      "no": 1,
+      "pl": 1,
+      "pt": 3,
+      "ru": 1,
+      "sv": 1,
+      "tr": 1,
+      "vi": 1,
+      "zh": 14
+    },
+    "length_distribution": {
+      "0-99": 393,
+      "100-499": 818,
+      "500-1999": 171,
+      "2000+": 6,
+      "min": 30,
+      "median": 124.0,
+      "max": 3122
+    }
+  },
+  "heldout": {
+    "requested": 150,
+    "shortfall": 0,
+    "total_generated": 150,
+    "retained": 147,
+    "near_duplicates": 3,
+    "near_duplicate_rate": 0.02,
+    "per_style": {
+      "heldout": 147
+    },
+    "per_language": {
+      "English": 115,
+      "French": 11,
+      "German": 8,
+      "Spanish": 13
+    },
+    "length_distribution": {
+      "0-99": 30,
+      "100-499": 117,
+      "500-1999": 0,
+      "2000+": 0,
+      "min": 50,
+      "median": 129,
+      "max": 325
+    }
+  }
+}

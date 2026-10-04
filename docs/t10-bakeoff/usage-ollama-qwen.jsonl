@@ -1,0 +1,15 @@
+{"attempt":1,"input_tokens":7473,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3603,"provider":"ollama-qwen","timestamp":"2026-09-25T08:36:42.659129+00:00","wall_time_seconds":61.435765}
+{"attempt":1,"input_tokens":7460,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3502,"provider":"ollama-qwen","timestamp":"2026-09-25T08:37:33.223584+00:00","wall_time_seconds":50.561963}
+{"attempt":1,"input_tokens":7481,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3590,"provider":"ollama-qwen","timestamp":"2026-09-25T08:38:24.501725+00:00","wall_time_seconds":51.276784}
+{"attempt":1,"input_tokens":7505,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3384,"provider":"ollama-qwen","timestamp":"2026-09-25T08:39:12.784645+00:00","wall_time_seconds":48.279217}
+{"attempt":1,"input_tokens":7443,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3495,"provider":"ollama-qwen","timestamp":"2026-09-25T08:40:02.725855+00:00","wall_time_seconds":49.939859}
+{"attempt":1,"input_tokens":8587,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3630,"provider":"ollama-qwen","timestamp":"2026-09-25T08:40:55.969707+00:00","wall_time_seconds":53.238704}
+{"attempt":1,"input_tokens":8403,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3685,"provider":"ollama-qwen","timestamp":"2026-09-25T08:41:49.707356+00:00","wall_time_seconds":53.735328}
+{"attempt":1,"input_tokens":8367,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3576,"provider":"ollama-qwen","timestamp":"2026-09-25T08:42:41.994362+00:00","wall_time_seconds":52.281052}
+{"attempt":1,"input_tokens":8559,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3660,"provider":"ollama-qwen","timestamp":"2026-09-25T08:43:38.299782+00:00","wall_time_seconds":53.423845}
+{"attempt":1,"input_tokens":8383,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3703,"provider":"ollama-qwen","timestamp":"2026-09-25T08:44:31.710030+00:00","wall_time_seconds":53.408568}
+{"attempt":1,"input_tokens":8609,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":4175,"provider":"ollama-qwen","timestamp":"2026-09-25T08:45:31.933265+00:00","wall_time_seconds":60.221493}
+{"attempt":1,"input_tokens":8651,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":4086,"provider":"ollama-qwen","timestamp":"2026-09-25T08:46:30.925034+00:00","wall_time_seconds":58.990534}
+{"attempt":1,"input_tokens":8615,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":4068,"provider":"ollama-qwen","timestamp":"2026-09-25T08:47:29.469455+00:00","wall_time_seconds":58.542857}
+{"attempt":1,"input_tokens":8703,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":3952,"provider":"ollama-qwen","timestamp":"2026-09-25T08:48:26.439184+00:00","wall_time_seconds":56.966354}
+{"attempt":1,"input_tokens":8624,"model":"qwen3.5:35b-mlx","outcome":"success","output_tokens":4097,"provider":"ollama-qwen","timestamp":"2026-09-25T08:49:25.632155+00:00","wall_time_seconds":59.191364}

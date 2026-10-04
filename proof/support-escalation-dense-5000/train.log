@@ -1,0 +1,1 @@
+{"output": "model", "test": {"all": {"n": 2892, "soft_ce": 0.1759, "acc": 0.9765}, "noul": {"n": 2892, "soft_ce": 0.1759, "acc": 0.9765}}, "temperatures": [1.0, 1.0, 1.1410481929779053], "train_seconds": 11418.91}

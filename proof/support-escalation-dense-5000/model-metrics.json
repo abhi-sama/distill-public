@@ -1,0 +1,83 @@
+{
+  "status": "ok",
+  "data": {
+    "rows": 4820,
+    "train_rows": 3856,
+    "calibration_rows": 482,
+    "test_rows": 482,
+    "train_items": 23136,
+    "calibration_items": 2892,
+    "test_items": 2892,
+    "dropped": 0
+  },
+  "options": {
+    "device": "mps",
+    "epochs": 4,
+    "micro_batch": 8,
+    "grad_accum": 4,
+    "lr_encoder": 2.5e-05,
+    "lr_head": 0.0001,
+    "precision": null,
+    "gradient_checkpointing": true,
+    "save_dtype": "fp32",
+    "seed": 20260922,
+    "cleanlab": false
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "mean_loss": 0.12915,
+      "mean_soft_ce": 0.232283,
+      "updates": 723
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 0.063999,
+      "mean_soft_ce": 0.172725,
+      "updates": 1446
+    },
+    {
+      "epoch": 3,
+      "mean_loss": 0.059972,
+      "mean_soft_ce": 0.152732,
+      "updates": 2169
+    },
+    {
+      "epoch": 4,
+      "mean_loss": 0.090848,
+      "mean_soft_ce": 0.143245,
+      "updates": 2892
+    }
+  ],
+  "temperatures": [
+    1.0,
+    1.0,
+    1.1410481929779053
+  ],
+  "test": {
+    "all": {
+      "n": 2892,
+      "soft_ce": 0.1759,
+      "acc": 0.9765
+    },
+    "noul": {
+      "n": 2892,
+      "soft_ce": 0.1759,
+      "acc": 0.9765
+    }
+  },
+  "calibration": {
+    "all": {
+      "n": 2892,
+      "soft_ce": 0.1737,
+      "acc": 0.9737
+    },
+    "noul": {
+      "n": 2892,
+      "soft_ce": 0.1737,
+      "acc": 0.9737
+    }
+  },
+  "train_seconds": 11418.91,
+  "cleanlab": null
+}
