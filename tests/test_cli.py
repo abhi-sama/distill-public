@@ -1,4 +1,5 @@
 import json
+import re
 import shutil
 
 import pytest
@@ -11,6 +12,12 @@ from distill.review_queue import ReviewQueue
 from distill.synthesis import write_jsonl
 
 runner = CliRunner()
+
+
+def plain_help(command: str) -> str:
+    """Help text with ANSI colour codes removed, as CI forces coloured output."""
+    output = runner.invoke(app, [command, "--help"]).output
+    return re.sub(r"\x1b\[[0-9;]*m", "", output)
 
 
 def test_train_reports_missing_reviewed_decision_file_without_starting_runtime(tmp_path):
@@ -102,9 +109,8 @@ def test_the_default_writer_is_the_local_dense_model_and_there_is_no_teacher_pin
 
     assert DEFAULT_WRITER == "ollama-gemma-dense"
     for command in ("init", "synth", "label"):
-        result = runner.invoke(app, [command, "--help"])
-        assert "--teacher-pin" not in result.output
-    assert "--writer" in runner.invoke(app, ["synth", "--help"]).output
+        assert "--teacher-pin" not in plain_help(command)
+    assert "--writer" in plain_help("synth")
 
 
 def test_label_writes_soft_labels_queues_disagreements_and_resumes(
